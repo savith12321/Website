@@ -10,7 +10,9 @@ const Navbar = () => {
           <Togglebutton />
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex">
-                <Navlink title="About" url="about"/>
+                <Navlink title="About" url="about" icon="fas fa-info"/>
+                <Navlink title="Projects" url="projects" icon="fas fa-lightbulb"/>
+                <Navlink title="Contact" url="contact" icon="fas fa-id-badge"/>
             </ul>
           </div>
         </div>

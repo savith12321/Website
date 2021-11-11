@@ -11,7 +11,9 @@ const About = () => {
             <h1><b>HI!</b></h1>
             <br />
             <p>Hello, i am <span className="count">{age(new Date('2008-07-14'))}</span> old, and i know java, <b>java script</b>, Python, c++, <br></br> etc and i am learning c, rust, and reactjs</p>
-            <script src='/js/count.js'></script>
+            <br />
+            <a href="/projects" type="button" className="btn btn-danger" style={{marginRight: '10px'}}>Projects...</a>
+            <a href="/contact" type="button" className="btn btn-danger" >Contact...</a>
         </div>
     )
 }
